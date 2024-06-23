@@ -3,7 +3,203 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>SIG | MangroVibe</title>
   </head>
-  <body></body>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">
+          <img src="assets/img/favicon.png" alt="" class="nav__logo-img" />
+          MangroVibe
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="./qgis2web_2024_06_20-18_22_26_266474 (cluster)/map.html" class="nav__link">Map</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <img src="assets/img/home-bg.jpg" alt="home image" class="home__bg" />
+        <div class="home__shadow"></div>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h3 class="home__subtitle">Geographical information System</h3>
+
+            <h1 class="home__title">Mangrove</h1>
+
+            <p class="home__description">
+              Platform ini menawarkan peta interaktif dan data terbaru tentang
+              ekosistem mangrove di Petengoran, mendukung konservasi dan
+              pengelolaan yang berkelanjutan.
+            </p>
+
+            <a href="about.html" class="button">
+              About Project <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="home__cards grid">
+            <article class="home__card">
+              <img
+                src="assets/img/1.png"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">Zona 1</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+
+            <article class="home__card">
+              <img
+                src="assets/img/2.png"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">Zona 2</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+
+            <article class="home__card">
+              <img
+                src="assets/img/3.png"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">Zona 3</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+
+            <article class="home__card">
+              <img
+                src="assets/img/4.png"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">Zona 4</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+
+            <article class="home__card">
+              <img
+                src="assets/img/5.png"
+                alt="home image"
+                class="home__card-img"
+              />
+              <h3 class="home__card-title">Zona 5</h3>
+              <div class="home__card-shadow"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__group">
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/OfficialUnila/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-facebook-line"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/official_unila"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/official_unila"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-twitter-line"></i>
+            </a>
+
+            <a
+              href="https://www.youtube.com/c/OfficialUnila"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-youtube-line"></i>
+            </a>
+          </div>
+
+          <span class="footer__copy">
+            &#169; Copyright MangroVibe. All rights reserved
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+  </body>
 </html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>SIG | MangroVibe</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">
+          <img src="assets/img/favicon.png" alt="" class="nav__logo-img" />
+          MangroVibe
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="./qgis2web_2024_06_20-18_22_26_266474 (cluster)/map.html" class="nav__link">Map</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#explore" class="nav__link" active-link>Contact</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== EXPLORE ====================-->
+      <section class="explore section" id="explore">
+        <div class="explore__container">
+          <div class="explore__image">
+            <img
+              src="assets/img/mangrove2.jpg"
+              alt="explore image"
+              class="explore__img"
+            />
+            <div class="explore__shadow"></div>
+          </div>
+
+          <div class="explore__content container grid">
+            <div class="explore__data">
+              <h2 class="section__title">Our Team</h2>
+            </div>
+            <div class="explore__user-wrapper" style="
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        ">
+              <div class="explore__user">
+                <img src="assets/img/pgt.png" alt="explore image" class="explore__perfil" />
+                <span class="explore__name">Rizki Pangestu <br> 2115061082</span>
+                <div class="explore__social-media">
+                  <a href="https://github.com/rizkipgt" target="_blank" class="footer__social-link"><i class="ri-github-line"></i></a>
+                  <a href="https://www.instagram.com/rizki.pgt/" target="_blank" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+                  <a href="https://www.youtube.com/@rizkipgt" target="_blank" class="footer__social-link"><i class="ri-youtube-line"></i></a>
+                </div>
+              </div>
+              <div class="explore__user">
+                <img src="assets/img/tkr.png" alt="explore image" class="explore__perfil" />
+                <span class="explore__name">Teguh Karya R <br> 2115061079</span>
+                <div class="explore__social-media">
+                  <a href="https://github.com/Teguhkr" target="_blank" class="footer__social-link"><i class="ri-github-line"></i></a>
+                  <a href="https://www.instagram.com/teguhk23_/" target="_blank" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+                  <a href="https://www.youtube.com/@teguhkaryarizki1646" target="_blank" class="footer__social-link"><i class="ri-youtube-line"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== JOIN ====================-->
+      <section class="join section">
+        <div class="join__container container grid">
+          <div class="join__data">
+            <h2 class="section__title">
+              Contact Us
+            </h2>
+
+            <p class="join__description">
+              Questions, bug reports, feedback — we're here for it all.
+            </p>
+
+            <form
+              action="https://formsubmit.co/teguhk356@gmail.com"
+              method="post"
+              class="join__form"
+            >
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                class="join__input"
+                required
+              />
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                class="join__input"
+                required
+              />
+              <input
+                name="message"
+                placeholder="Enter your message"
+                class="join__input"
+                required
+              ></input>
+              <button type="submit" class="join__button button">
+                Submit <i class="ri-arrow-right-line"></i>
+              </button>
+            </form>
+          </div>
+
+          <div class="join__image">
+            <img
+              src="assets/img/mangrove.jpg"
+              alt="join image"
+              class="join__img"
+            />
+            <div class="join__shadow"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__group">
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/OfficialUnila/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-facebook-line"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/official_unila"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/official_unila"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-twitter-line"></i>
+            </a>
+
+            <a
+              href="https://www.youtube.com/c/OfficialUnila"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-youtube-line"></i>
+            </a>
+          </div>
+
+          <span class="footer__copy">
+            &#169; Copyright MangroVibe. All rights reserved
+          </span>
+        </div>
+      </div>
+    </footer>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

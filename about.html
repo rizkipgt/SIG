@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>SIG | MangroVibe</title>
+  </head>
+
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo">
+          <img src="assets/img/favicon.png" alt="" class="nav__logo-img" />
+          MangroVibe
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link active-link">About</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="./qgis2web_2024_06_20-18_22_26_266474 (cluster)/map.html" class="nav__link">Map</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">Mangrove Petengoran</h2>
+
+            <p class="about__description">
+              Mangrove Petengoran adalah ekowisata seluas 113 hektar di Desa
+              Gebang, Pesawaran, Lampung, yang berfungsi menjaga stabilitas
+              pantai dan menyerap karbon. Dikelola oleh masyarakat, pemerintah,
+              dan mitra swasta seperti PT Japfa Comfeed Indonesia TBK dan PT
+              PLN, area ini menggabungkan konservasi dan peningkatan ekonomi
+              lokal. Pengunjung menikmati fasilitas dan berkontribusi melalui
+              donasi untuk pemeliharaan dan pengembangan mangrove.
+            </p>
+
+            <a
+              href="https://drive.google.com/file/d/1ryZS_owxqtIb9JxKW3lN9TdUkMUa7TXY/view"
+              class="button"
+              target="_blank"
+            >
+              Report <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="about__image">
+            <img
+              src="assets/img/img2.png"
+              alt="about image"
+              class="about__img"
+            />
+            <div class="about__shadow"></div>
+          </div>
+        </div>
+      </section>
+      <section class="popular section" id="popular">
+        <h2 class="section__title">
+          Information Layers
+        </h2>
+
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <div class="popular__image">
+              <img
+                src="assets/img/BaseMap.png"
+                alt="popular image"
+                class="popular__img"
+              />
+              <div class="popular__shadow"></div>
+            </div>
+
+            <h2 class="popular__title">Base Map</h2>
+
+            <div class="popular__location">
+              <span>Peta dasar yang menampilkan kondisi lahan atau tanah yang diperoleh langsung dari citra satelit atau udara.</span>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <div class="popular__image">
+              <img
+                src="assets/img/Kepadatan.png"
+                alt="popular image"
+                class="popular__img"
+              />
+              <div class="popular__shadow"></div>
+            </div>
+
+            <h2 class="popular__title">Peta Kerapatan</h2>
+
+            <div class="popular__location">
+              <span>Peta yang menunjukkan kerapatan mangrove berdasarkan warna, semakin gelap warna yang ditampilkan pada citra, semakin rapat vegetasi mangrovenya.</span>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <div class="popular__image">
+              <img
+                src="assets/img/GarisPantai.png"
+                alt="popular image"
+                class="popular__img"
+              />
+              <div class="popular__shadow"></div>
+            </div>
+
+            <h2 class="popular__title">Peta Garis Pantai</h2>
+
+            <div class="popular__location">
+            <span>Peta yang menunjukkan perubahan garis pantai, membandingkan dan memproses informasi dari dua layer vektor dalam sistem informasi geografis (SIG).</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__group">
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/OfficialUnila/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-facebook-line"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/official_unila"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/official_unila"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-twitter-line"></i>
+            </a>
+
+            <a
+              href="https://www.youtube.com/c/OfficialUnila"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-youtube-line"></i>
+            </a>
+          </div>
+
+          <span class="footer__copy">
+            &#169; Copyright MangroVibe. All rights reserved
+          </span>
+        </div>
+      </div>
+    </footer>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
