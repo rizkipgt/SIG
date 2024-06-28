@@ -908,7 +908,7 @@ img {
   }
 
   .footer__group {
-    margin-top: 7rem;
+    margin-top: 0rem;
   }
 
   .footer__social {
@@ -921,5 +921,28 @@ img {
 
   .scrollup {
     right: 3rem;
+  }
+}
+
+.responsive-container {
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+.home__warning {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .responsive-container {
+    max-width: 80%; /* atau ukuran yang lebih sesuai dengan kebutuhan Anda */
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-container {
+    max-width: 100%; /* atau ukuran yang lebih sesuai dengan kebutuhan Anda */
   }
 }
